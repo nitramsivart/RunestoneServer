@@ -56,7 +56,7 @@ RUN apt-get update && \
         less \
         libfreetype6-dev postgresql-common postgresql postgresql-contrib \
         libpq-dev libxml2-dev libxslt1-dev \
-        texlive-full xsltproc pdf2svg \
+        #texlive-full xsltproc pdf2svg \
         certbot python-certbot-nginx \
         openjdk-11-jre-headless \
         rsync wget nginx xvfb x11-utils google-chrome-stable lsof && \
