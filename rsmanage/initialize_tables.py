@@ -21,6 +21,7 @@ if db(db.courses.id > 0).isempty():
     )
     # should be id 1
     BASE_COURSES = [
+        "1410-book",
         "ac1",
         "cppds",
         "cppforpython",
